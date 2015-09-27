@@ -45,7 +45,8 @@
         <source-file src="src/android/AdMobPlugin.java" target-dir="src/com/rjfun/cordova/admob" />
 
         <!-- must use gradle, or else cannot be handled correctly -->
-        <framework src="com.google.android.gms:play-services-ads:+" />
+        <!-- framework src="com.google.android.gms:play-services-ads:+" /-->
+        <dependency id="cordova-plugin-googleplayservices"/>
      </platform>
      
     <!-- same as android, but use ant instead of gradle -->
